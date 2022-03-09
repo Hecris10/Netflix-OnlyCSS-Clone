@@ -1,8 +1,10 @@
-body{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url("../img/index.background.jpg");
-}
-header{
-    content: url("../img/Netflix_2015_logo.svg");
-    width: 200px;
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/index.background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url("../img/index.background.jpg");
 }
 
+header {
+  content: url("../img/Netflix_2015_logo.svg");
+  width: 200px;
+}
+/*# sourceMappingURL=style.css.map */
