@@ -110,15 +110,23 @@ header{
     }
 }
 
+h3.popular{
+      margin-top: -20px;
+      margin-left: 20px
+}
 
-.box-movies{
+
+.item h4 img{
     height: 100%;
     width: 100%;
     display: block;
+    &:hover{
+        border: solid 0.1cm white;
+    
+    }
 }
 
 .corousel{
-    margin-top: 25px;
     display: flex;
     @media screen and (max-width:700px){
         width: 95%;
